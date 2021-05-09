@@ -1,16 +1,30 @@
+<!-- Doctype and Language:
+    1. this informs the web browser the html version is used building the web document
+    2. identifies US English as the text content language used on the web page -->
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!--Head Defines:
+    1. the site header metadata character type
+    2. enables correct size of user web page visible area on all devices
+    3. css external file stylesheet file path which will be linked to the html code
+    4. site title -->
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horiseon</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 
 <body>
-    <div class="header">
+    <!--Headers:
+        1. The site heading Horiseion has the letters seo emphasized to increase site 
+        optimization
+    2. The links are displayed in navigation bar-->
+
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,8 +36,11 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
+
+<main>
+<div>   
     <div class="hero"></div>
     <div class="content">
         <div class="search-engine-optimization">
@@ -71,6 +88,8 @@
             </p>
         </div>
     </div>
+    </main>
+
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
