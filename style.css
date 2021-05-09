@@ -84,6 +84,7 @@ p {
 }
 
 /* search-engine-optimization formatting of box size and section images is defined */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -92,6 +93,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+
 /* search-engine-optimization formatting image position */
 .float-left {
     float: left;
@@ -153,6 +155,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+
 /* Lead Generation, Benefit Brand and Benefit Cost sidebar format and position of images */
 .benefit-lead img {
     display: block;
@@ -180,6 +183,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 /* Social-media-marketing, search-engine-optimization, online-reputation-management format and position of images */
 .online-reputation-management {
     margin-bottom: 20px;
