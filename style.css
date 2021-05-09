@@ -26,7 +26,14 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    float: left;
+   
 }
+ .nav-header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
 
 /* Defining the site header font size and display header text horizontally*/
  h1 {
