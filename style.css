@@ -29,20 +29,22 @@ header {
     float: left;
    
 }
+
+/*display site heading and nav links on the same line */
  .nav-header {
      display: flex;
      justify-content: space-between;
      align-items: center;
  }
 
-/* Defining the site header font size and display header text horizontally*/
+/* Defining the site header font size and display header text horizontally */
  h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* Defines the color for the highlight on the seo characters in site title for 
-search engine optimization*/
+search engine optimization */
 h1 .seo {
     color: #d9dcd6;
     
@@ -58,51 +60,58 @@ header {
     
 }
 
+/* unordered list items text is right aligned */
+
 ul {
     text-align: right;
     
 }
-
+/* unordered list items display and margin settings in the site header */
 li {
     display: inline-block;
     list-style-type: none;
     margin-left: 25px;
 }
-
+/* text color defined as white and the underline removed from links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* header text font size is defined */
 p {
     font-size: 16px;
 }
 
+/* search-engine-optimization formatting of box size and section images is defined */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
-
+/* search-engine-optimization formatting image position */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* online-reputation-management formatting image position */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* defines display of inserted content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Lead Generation sidebar format of text, background hex color scheme */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -114,6 +123,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Lead Generation, Benefit Brand and Benefit Cost sidebar format and position of text */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -143,7 +153,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Lead Generation, Benefit Brand and Benefit Cost sidebar format and position of images */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -170,7 +180,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Social-media-marketing, search-engine-optimization, online-reputation-management format and position of images */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
